@@ -1,0 +1,146 @@
+/*---| .b-widget |----------------------start----------------------------------------*/
+
+.b-widget {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px #8a8a8a;
+  -moz-box-shadow: 0 2px 4px #8a8a8a;
+  box-shadow: 0 2px 4px #8a8a8a;
+  margin-bottom: 20px;
+  background: #f7f9d9;
+  margin-top: -107px;
+
+
+}
+
+.b-widget__inner {
+  padding: 21px;
+  padding-top: 18px;
+}
+
+.b-widget__head {
+  font-size: 15px;
+  margin-bottom: 13px;
+  font-family: @Pt;
+
+}
+
+.b-widget__ps-l,
+.b-widget__ps-l:visited {
+  color: #222222;
+  font-weight: bold;
+  font-family: @Pt;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  border-bottom: 1px dashed #000000;
+  line-height: 1;
+  font-size: 15px;
+}
+
+.b-widget__order {
+  font-family: @Pt;
+  margin-bottom: 10px;
+}
+
+.b-widget__order-h {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.b-widget__order-c {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.b-widget__prod {
+  font-size: 13px;
+  margin-bottom: 13px;
+  font-family: @Arial;
+}
+
+.b-widget__prod-disabled {
+  color: #c1c3ac;
+}
+
+.b-widget__prod-n {
+  overflow: hidden;
+  padding-right: 13px;
+  font-size: 13px;
+  text-overflow: ellipsis;
+}
+
+.b-widget__price {
+  font-family: @Pt;
+  color: #ff5e1f;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.b-widget__addr-inp {
+  margin-bottom: 20px;
+}
+
+.b-widget__deliv {
+  font-size: 13px;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.b-widget__addr-h {
+  font-size: 13px;
+  line-height: 1.2;
+  margin-bottom: 9px;
+}
+
+.b-widget__em {
+  float: right;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/*===| .b-widget |======================end==========================================*/
+
+/*---| .b-widget_empty |----------------------start----------------------------------------*/
+
+.b-widget_empty {
+  padding: 0;
+  height: 50px;
+  .box-shadow( 0 1px 4px rgba(0,0,0,.4));
+}
+
+.b-widget_empty .b-widget__inner  {
+ // padding: 0;
+}
+
+/*===| .b-widget_empty |======================end==========================================*/
+
+
+@media screen and (max-width: @mm) {
+
+  .b-widget {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    margin-top: 0;
+    overflow: hidden;
+
+  }
+
+  .b-widget__inner {
+    padding-top: 8px;
+  }
+
+  .b-widget__order-c {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    line-height: 1;
+  }
+
+}

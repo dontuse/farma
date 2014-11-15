@@ -1,0 +1,47 @@
+/*---| .b-auto-basket |----------------------start----------------------------------------*/
+
+.b-auto-basket {
+  position: absolute;
+  right: 100%;
+  background: #ffffff;
+  white-space: nowrap;
+  top: -5px;
+  .box-shadow(0 1px 3px rgba(138,138,138,.9));
+  padding: 4px;
+  border: 1px solid #ecedee;
+  .border-radius(3px);
+}
+
+.b-auto-basket:after {
+  content: '';
+  width: 8px;
+  height: 13px;
+  background: url("@{blockPath}/i-img/b-auto-basket.png");
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -6px;
+}
+
+.b-auto-basket__price {
+  display: inline-block;
+  color: #fd6d3b;
+  font-size: 15px;
+  font-family: @Pt;
+  font-weight: bold;
+  line-height: 31px;
+  margin-left: 6px;
+  margin-right: 8px;
+}
+
+.b-auto-basket__btn,
+.b-auto-basket__btn:visited {
+  height: 29px;
+  line-height: 29px;
+  width: 127px;
+  font-size: 15px;
+  display: inline-block;
+
+}
+
+/*===| .b-auto-basket |======================end==========================================*/

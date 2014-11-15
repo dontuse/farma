@@ -1,0 +1,108 @@
+/*---| .b-grid |----------------------start----------------------------------------*/
+
+.b-grid {
+  .clearFix();
+}
+
+.b-grid__col {
+  .float();
+}
+
+.b-grid__col_1 {
+  position: relative;
+  float: left;
+  width: 180px;
+  margin-right: -180px;
+  left: 0;
+}
+
+.b-grid__col_2 {
+  position: relative;
+  float: left;
+  width: 680px;
+  margin-right: -680px;
+  left: 200px;
+ // background: orange;
+}
+
+.b-grid__col_3 {
+  position: relative;
+  float: left;
+  width: 240px;
+  margin-right: -240px;
+  left: 902px;
+  //background: red;
+}
+
+
+@media screen and (max-width: @mw) {
+
+  .b-grid__col_1 {
+    position: relative;
+    float: left;
+    width: 180px;
+    margin-right: -180px;
+    left: 0;
+  }
+
+  .b-grid__col_2 {
+    position: relative;
+    float: left;
+    width: 540px;
+    margin-right: -620px;
+    left: 200px;
+
+  }
+
+  .b-grid__col_3 {
+    position: relative;
+    float: left;
+    width: 220px;
+    margin-right: -220px;
+    left: 760px;
+   // background: red;
+  }
+
+}
+
+@media screen and (max-width: @mm) {
+
+  .b-grid__col {
+    float: none;
+  }
+
+  .b-grid__col_1 {
+
+    float: none;
+    margin-right: 0;
+    left: 0;
+    //overflow: hidden;
+    width: auto;
+  }
+
+  .b-grid__col_2 {
+    position: relative;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    left: 0;
+
+  }
+
+  .b-grid__col_3 {
+    position: relative;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    left: 0;
+   // background: red;
+  }
+
+}
+
+
+
+
+
+
+/*===| .b-grid |======================end==========================================*/

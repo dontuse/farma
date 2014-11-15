@@ -1,0 +1,151 @@
+/*---| .b-order |----------------------start----------------------------------------*/
+
+.b-order {
+  margin-bottom: 20px;
+  .box-shadow(0 1px 3px rgba(138, 138, 138, 0.7));
+  .border-radius(3px);
+}
+
+.b-order__h {
+  font-size: 13px;
+  line-height: 40px;
+  color: #9b9b9b;
+  background: #f7f9d9;
+  .border-radius(4px 4px 0 0) ;
+  height: 40px;
+
+}
+
+
+.b-order__foot {
+  background: #f7f9d9;
+  .border-radius(0 0 3px 3px);
+  //box-shadow: inset 0 -1px 4px rgba(0,0,0,.4);
+  position: relative;
+  margin-top: -2px;
+
+}
+
+.b-order__con {
+  //box-shadow: inset 0 -1px 4px rgba(0,0,0,.4);
+}
+
+.b-order__con .b-product-line:last-child {
+  padding-bottom: 10px;
+}
+
+.b-order__h-g-1 {
+  margin-left: 112px
+}
+
+.b-order__h-g-2 {
+  margin-left: 181px
+}
+
+.b-order__h-g-3 {
+  margin-left: 36px
+}
+
+.b-order__res {
+  .clearFix();
+  line-height: 75px;
+}
+
+.b-order__res-c-1 {
+  width: 425px;
+  float: left;
+  text-align: right;
+}
+
+.b-order__res-c-2 {
+  float: left;
+  padding-left: 44px;
+  white-space: nowrap;
+}
+
+.b-order__delivery {
+  .clearFix();
+  line-height: 75px;
+  border-bottom: 1px solid #E2E4CB;
+  padding-bottom: 20px;
+}
+
+.b-order__delivery-c-1 {
+  width: 287px;
+  float: left;
+  text-align: left;
+}
+.b-order__delivery-c-1 .b-input {
+  margin-bottom: 10px;
+}
+
+.b-order__delivery-c-2 {
+  float: left;
+  padding-left: 44px;
+}
+.b-order__delivery-c-3 {
+  float: left;
+  padding-left: 44px;
+}
+
+.b-order__delivery-wrap {
+  display: block;
+  margin-left: 30px;
+}
+
+.b-order__delivery-t {
+  font-weight: bold;
+  font-size: 17px;
+  font-family: "PT Sans";
+  line-height: 64px;
+}
+
+.b-order__delivery .b-control__i-b {
+  line-height: 19px;
+}
+
+/*===| .b-order |======================end==========================================*/
+
+@media screen and (max-width: @mw) {
+  .b-order__h-g-1 {
+    margin-left: 76px;
+  }
+
+  .b-order__h-g-2 {
+    margin-left: 107px;
+  }
+
+  .b-order__h-g-3 {
+    margin-left: 17px;
+  }
+
+  .b-order__res-c-1 {
+    width: 317px;
+  }
+
+  .b-order__res-c-2 {
+    float: left;
+    padding-left: 24px;
+  }
+}
+
+
+@media screen and (max-width: @mm) {
+  .b-order__h {
+    display: none;
+  }
+
+  .b-order__res {
+
+  }
+
+  .b-order__res-c-1 {
+    margin-right: 7%;
+    width: 55%;
+  }
+
+  .b-order__res-c-2 {
+    width: 30%;
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,137 @@
+{{>head}}
+
+<body class="b-body">
+
+
+<div class="b-page">
+    <div class="b-page__wrap">
+
+        {{>header}}
+
+        <div class="b-wrapper">
+            <div class="b-content">
+                <section class="b-grid">
+                    <section class="b-grid__col b-grid__col_1">
+                        {{>nav}}
+                    </section>
+
+                    <section class="b-grid__col b-grid__col_3">
+                        <?php include('html-parts/basket.html'); ?>
+
+                        <div class="b-round-box">
+                            <div class="b-round-box__inner">
+                                <div class="b-title">Вы смотрели</div>
+                                <div class="b-product">
+                                    <figure class="b-product__pic">
+                                        <a href="">
+                                            <img src="tmp/prod1.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                    <div class="b-product__t">
+                                        <a class="b-product__t-l" href="">Синупрет (таблетки) 150 шт.</a>
+                                    </div>
+                                    <div class="b-product__price">
+                                        от 180 руб.
+                                    </div>
+                                </div>
+                                <div class="b-separator"></div>
+                                <div class="b-product">
+                                    <figure class="b-product__pic">
+                                        <a href="">
+                                            <img src="tmp/prod2.jpg" alt="">
+                                        </a>
+                                    </figure>
+                                    <div class="b-product__t">
+                                        <a class="b-product__t-l" href="">Синупрет (таблетки) 150 шт.</a>
+                                    </div>
+                                    <div class="b-product__price">
+                                        от 180 руб.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <aside class="b-grid__col b-grid__col_2">
+
+
+                        <section style="padding: 30px; padding-top: 14px;" class="b-round-box">
+                            <div class="b-breadcrumb"></div>
+                            <h1 class="b-h-title">Ваш заказ</h1>
+
+                            {{>order}}
+
+                            <div class="b-order-btn-box">
+                                <div class="b-order-btn-box__btn">
+                                    <a class="b-button b-button_sc_order" href="">Оформить заказ</a>
+                                </div>
+                            </div>
+                           <section style="margin-left: -30px; margin-right: -30px;">
+                               <section class="b-mess" style="">
+                                   <h5 class="b-mess__title">Доставка товара возможна после оплаты на сайте</h5>
+                                   <div class="b-mess__box">
+                                       <figure class="b-mess__icon"></figure>
+                                       Мы заботимся о вас. Чтобы гарантировать доставку, мы вынуждены брать предоплату.
+                                       Благодарим за понимание. Полнее читайте <a href="">правила доставки</a>.
+                                   </div>
+                               </section>
+                               <div class="b-product-card b-product-card_sc_mess">
+                                   <div class="b-product-card__feature">
+
+                                       <div class="b-product-card__feat-g">
+                                           <div class="b-feature b-feature_type_24">
+                                               <div class="b-feature__img"></div>
+                                               <div class="b-feature__txt">Круглосуточная <br> доставка</div>
+                                           </div>
+                                       </div>
+                                       <div class="b-product-card__feat-g">
+                                           <div class="b-feature b-feature_type_no-back">
+                                               <div class="b-feature__img"></div>
+                                               <div class="b-feature__txt">Не подлежит <br> возврату</div>
+                                           </div>
+                                       </div>
+                                       <div class="b-product-card__feat-g">
+                                           <div class="b-feature b-feature_type_sms">
+                                               <div class="b-feature__img"></div>
+                                               <div class="b-feature__txt">SMS-оповещение о статусе заказа</div>
+                                           </div>
+                                       </div>
+                                       <div class="b-product-card__feat-g">
+                                           <div class="b-feature b-feature_type_lock">
+                                               <div class="b-feature__img"></div>
+                                               <div class="b-feature__txt">Герметичная <br> упаковка</div>
+                                           </div>
+                                       </div>
+                                       <div class="b-product-card__feat-g">
+                                           <div class="b-feature b-feature_type_100">
+                                               <div class="b-feature__img"></div>
+                                               <div class="b-feature__txt">100% оплата по <br> безналичному расчету</div>
+                                           </div>
+                                       </div>
+
+                                   </div>
+                               </div>
+                           </section>
+                        </section>
+
+                    </aside>
+
+                </section>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+</div>
+
+
+<script src="publish/script.js"></script>
+
+</body>
+</html>
+

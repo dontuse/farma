@@ -1,0 +1,53 @@
+/*---| .b-control |----------------------start----------------------------------------*/
+
+.b-control {
+  width: 295px;
+  margin-bottom: 20px;
+}
+
+.b-control__lab {
+  display: block;
+  color: #757575;
+  font-family: @Pt;
+  font-size: 13px;
+  line-height: 1;
+  margin-bottom: 9px;
+}
+
+.b-control__i-b {
+  position: relative;
+}
+
+.b-control__error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 100%;
+  padding-top: 2px;
+  top: 100%;
+  left: 0;
+//  display: none;
+}
+
+/*===| .b-control |======================end==========================================*/
+
+/*---| .b-control_st_error |----------------------start----------------------------------------*/
+
+.b-control_st_error {
+}
+
+  .b-control_st_error .b-control__lab {
+    color: red;
+  }
+
+.b-control_st_error  .b-control__error {
+  display: block;
+}
+
+/*===| .b-control_st_error |======================end==========================================*/
+
+@media screen and (max-width: @mm) {
+  .b-control {
+    width: 100%;
+  }
+}

@@ -1,0 +1,108 @@
+{{>head}}
+
+<body class="b-body">
+
+
+<div class="b-page">
+    <div class="b-page__wrap">
+
+        {{>header}}
+
+        <div class="b-wrapper">
+            <div class="b-content">
+                <section class="b-grid">
+
+                    <section class="b-grid__col b-grid__col_1">
+                        {{>nav}}
+                    </section>
+
+                    <section class="b-grid__col b-grid__col_3">
+                        <?php include('html-parts/widget.html'); ?>
+                    </section>
+
+                    <aside class="b-grid__col b-grid__col_2">
+
+
+                        <section style="padding: 30px; padding-top: 14px;" class="b-round-box">
+                            <div class="b-breadcrumb"></div>
+
+                            <h1 class="b-h-title">Оформление заказа</h1>
+
+                            <div class="b-inf-txt">
+                                Ваш заказ на сумму 1400 руб. будет доставлен 18 июля 2013 г. <br>
+                                в промежуток между 14:00 и 16:00.
+                            </div>
+
+                            <hr class="b-separator_line">
+                           <div class="b-order-reseult">
+                               <div class="b-order-result__h">
+                                   Состав заказа
+                               </div>
+                               <div class="b-product-line">
+                                   <div class="b-product-line__col-3">
+                                       <figure class="b-product-line__pic">
+                                           <a href="">
+                                               <img class="b-product-line__img" src="tmp/prod2.jpg" alt="">
+                                           </a>
+                                       </figure>
+                                   </div>
+                                   <div class="b-product-line__col-1">
+
+                                       <div class="b-product-line__t">
+                                           <a class="b-product-line__t-l" href="">Пудинг Heinz фруктовое ассорти в сливках 200 г
+                                           </a>
+                                       </div>
+
+                                   </div>
+                               </div>
+                               <div class="b-product-line">
+                                   <div class="b-product-line__col-3">
+                                       <figure class="b-product-line__pic">
+                                           <a href="">
+                                               <img class="b-product-line__img" src="tmp/prod3.jpg" alt="">
+                                           </a>
+                                       </figure>
+                                   </div>
+                                   <div class="b-product-line__col-1">
+
+                                       <div class="b-product-line__t">
+                                           <a class="b-product-line__t-l" href="">Десерт Фрутоняня
+                                               яблоко-персик-маракуйя-фруктоза 125 мл</a>
+                                       </div>
+
+                                   </div>
+                               </div>
+                           </div>
+                            <hr class="b-separator_line">
+                            <div class="b-inf-txt">
+                                Статус вашего заказа будет сообщаться <br>
+                                на номер телефона (904) 386–56–56 по СМС.
+                            </div>
+                            <div class="b-inf-txt">
+                                <b>Спасибо за покупку!</b>
+                            </div>
+
+
+                        </section>
+
+
+                    </aside>
+
+                </section>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+</div>
+
+
+<script src="publish/script.js"></script>
+
+</body>
+</html>
+

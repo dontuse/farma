@@ -1,0 +1,73 @@
+/*---| .b-product |----------------------start----------------------------------------*/
+
+.b-product {
+  font-family: @Pt;
+}
+
+.b-product__t {
+  line-height: 19px;
+
+}
+
+.b-product__t-l,
+.b-product__t-l:visited {
+  font-weight: bold;
+  font-size: 13px;
+  color: #222;
+}
+
+.b-product__pic {
+  line-height: 81px;
+  height: 81px;
+
+}
+
+.b-product__pic img {
+ max-height: 100%;
+  max-width: 100%;
+}
+
+.b-product__img {
+  max-width: 100%;
+}
+
+/*===| .b-product |======================end==========================================*/
+
+/*---| .b-product_type_addon |----------------------start----------------------------------------*/
+
+.b-product_type_addon {
+}
+
+.b-product_type_addon .b-product__pic {
+  // background: red;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 5px;
+}
+
+.b-product_type_addon .b-product__t {
+  line-height: 1;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.b-product_type_addon .b-product__t:after {
+  content: ".";
+  position: absolute;
+  color: transparent;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  background-image: -moz-linear-gradient(left center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+  background-image: -webkit-gradient(linear, left center, right center, color-stop(0, rgba(255, 255, 255, 0)), color-stop(1, rgba(255, 255, 255, 255)));
+  background-image: -ms-linear-gradient(left center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+  background-image: -o-linear-gradient(left center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+  background-image: linear-gradient(left center, rgba(255, 255, 255, 0), rgba(255, 255, 255, 255));
+}
+
+
+
+/*===| .b-product_type_addon |======================end==========================================*/
+

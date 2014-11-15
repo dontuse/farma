@@ -1,0 +1,166 @@
+{{>head}}
+
+<body class="b-body">
+
+
+<div class="b-page">
+    <div class="b-page__wrap">
+
+        {{>header}}
+
+        <div class="b-wrapper">
+            <div class="b-content">
+                <section class="b-grid">
+
+                    <section class="b-grid__col b-grid__col_1">
+                        {{>nav}}
+                    </section>
+
+                    <section class="b-grid__col b-grid__col_3">
+                        <?php include('html-parts/basket.html'); ?>
+                        <?php include('html-parts/widget.html'); ?>
+                    </section>
+
+                    <aside class="b-grid__col b-grid__col_2">
+
+
+                        <section style="padding: 30px; padding-top: 14px;" class="b-round-box">
+                            <div class="b-breadcrumb"></div>
+
+                            <h1 class="b-h-title">Ваши данные</h1>
+                            <section>
+                                <div class="b-control">
+                                    <label class="b-control__lab">ФИО</label>
+
+                                    <div class="b-control__i-b">
+                                        <input class="b-input" type="text">
+                                    </div>
+                                </div>
+                                <div class="b-control">
+                                    <label class="b-control__lab">Телефон</label>
+
+                                    <div class="b-control__i-b">
+                                        <input class="b-input" type="text">
+                                    </div>
+                                </div>
+                                <section class="b-control-set">
+                                    <div class="b-control b-control-set__el b-control-set__el_long">
+                                        <label class="b-control__lab">Улица</label>
+
+                                        <div class="b-control__i-b">
+                                            <input value="Ленина, д.65, кв.17" class="b-input" type="text">
+                                        </div>
+                                    </div>
+                                    <section class="b-control-set__fl-row">
+                                        <div class="b-control b-control-set__el">
+                                            <label class="b-control__lab">Дом</label>
+
+                                            <div class="b-control__i-b">
+                                                <input class="b-input" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="b-control b-control-set__el">
+                                            <label class="b-control__lab">Корпус</label>
+
+                                            <div class="b-control__i-b">
+                                                <input class="b-input" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="b-control b-control-set__el">
+                                            <label class="b-control__lab">Квартира</label>
+
+                                            <div class="b-control__i-b">
+                                                <input class="b-input" type="text">
+                                            </div>
+                                        </div>
+                                    </section>
+                                </section>
+                                <div class="b-control">
+                                    <label class="b-control__lab">Электронная почта</label>
+
+                                    <div class="b-control__i-b">
+                                        <input class="b-input" type="text">
+                                    </div>
+                                </div>
+
+                                <div class="b-reg-in-s">
+                                    <a class="b-reg-in-s__lnk" href="">Зарегистрироваться</a> или войти через
+                                    <a class="b-soc-icon b-soc-icon_vk" title="vkontakte" href=""></a>
+                                    <a class="b-soc-icon b-soc-icon_fb" title="facebook" href=""></a>
+                                </div>
+
+                                <hr class="b-separator_line">
+
+                                <section>
+                                    <h4 class="b-h-title">Дата и время доставки</h4>
+                                    <section class="b-control-set">
+                                        <div class="b-control b-control-set__el b-control-set__el_long">
+                                            <label class="b-control__lab">Дата</label>
+
+                                            <div class="b-control__i-b">
+                                                <input  data-value="2004-03-20" min="2004-02-20" value="12 октября 2013 г." class="b-input <!--js-inp-date-->" >
+                                                <span class="b-calendar"></span>
+                                            </div>
+                                        </div>
+                                        <section class="b-control-set__fl-row">
+                                            <div class="b-control ">
+                                                <label class="b-control__lab">Время доставки</label>
+
+                                                <div class="b-control__i-b">
+                                                    <label class="b-label">c</label>
+                                                <span class="b-dec-select b-dec-select_time-1">
+                                                    <select class="b-dec-select__c">
+                                                        <option>09:00</option>
+                                                        <option>10:00</option>
+                                                        <option>11:00</option>
+                                                        <option>12:00</option>
+                                                        <option>13:00</option>
+                                                    </select>
+                                                </span>
+                                                    <label class="b-label">до</label>
+                                                <span class="b-dec-select">
+                                                    <select class="b-dec-select__c">
+                                                        <option>09:00</option>
+                                                        <option>10:00</option>
+                                                        <option>11:00</option>
+                                                        <option>12:00</option>
+                                                        <option>13:00</option>
+                                                    </select>
+                                                </span>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+
+                            <hr class="b-separator_line">
+
+                            <section class="b-btn-grid">
+                                <a class="b-button b b-button_state_disable b-btn-grid__el" href="">Назад</a>
+                                <a class="b-button b-btn-grid  b-btn-grid__el b-btn-grid__el_right" href="">Далее</a>
+                            </section>
+
+                        </section>
+
+
+                    </aside>
+
+                </section>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+</div>
+
+
+<script src="publish/script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,102 @@
+{{>head}}
+
+<body class="b-body">
+
+
+<div class="b-page">
+    <div class="b-page__wrap">
+
+        <?php include('html-parts/header-2.html'); ?>
+
+        <div class="b-wrapper">
+            <div class="b-content">
+                <section class="b-grid">
+
+                    <section class="b-grid__col b-grid__col_1">
+                        {{>nav}}
+                    </section>
+
+                    <aside class="b-grid__col b-grid__col_2">
+
+                        <section class="b-box b-box_5">
+
+                            <div class="b-box_6r">
+                                <div class="b-search b-search_sc_in b-box_4">
+                                    <form class="b-search__ins" action="">
+                                        <input class="b-search__inp" placeholder="Введите название лекарства">
+                                        <input value="найти" type="submit" class="b-button b-search__submit">
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="b-index-info clearFix">
+                                <h1 class="b-index-info__h">Делайте покупки на ФастФарме легко и с удовольствием</h1>
+
+                                <div class="b-box b-box_6">
+                                    <img style="max-width: 98%;" src="blocks/i-img/index-img1.png">
+                                </div>
+
+                                <div style="" class="b-index-info__col b-index-info__col_1">
+                                    <div>
+                                        <h3 class="b-index-info__col-h">Выберите товар</h3>
+                                        <div class="b-index-info__col-cnt">
+                                            Воспользутесь поиском, найдите нужный товар.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-index-info__col b-index-info__col_2">
+                                    <div>
+                                        <h3 class="b-index-info__col-h">Оплатите товар по интернету</h3>
+                                        <div class="b-index-info__col-cnt">
+                                            Оплатите покупку прямо на сайте любым из 30-ти доступных видов онлайн платежа. Онлайн оплата
+                                            <i class="b-index-info__imp">гарантирует своевременную доставку заказа.</i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div  class="b-index-info__col b-index-info__col_3">
+                                    <div>
+                                        <h3 class="b-index-info__col-h">Получите товар за 2 часа</h3>
+                                        <div class="b-index-info__col-cnt">
+                                            Через два часа курьер
+                                            <i class="b-index-info__imp">гарантировано доставит вам товар</i>.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="b-separator_full"></div>
+                        </section>
+
+                        <div class="b-text">
+                            <p>Онлайн аптека Fastfarma предлагает низкие цены на лекарства и товары для здоровья. Здесь вы сможете найти и купить лекарства не выходя из дома. В нашем каталоге собраны самые популярные и эффективные лекарства и товары для здоровья. Вам не придется тратить время на поиск лекарств в других аптеках Екатеринбурга. Теперь вы можете купить лекарства в одном месте.</p>
+                            <p>
+
+                                Онлайн аптека Fastfarma – поиск, резервирование, бронирование лекарств. Доставка лекарств на дом, в офис по Екатеринбургу и городам-спутникам. Закажите лекарства, медтехнику и другие товары для здоровья на нашем сайте, и мы осуществим доставку в любую точку Екатеринбурга, В.Пышмы и Березовского. Кроме того, вы можете забронировать препараты и другие товары в любой из наших аптек и забрать заказ в удобное время.
+                            </p>
+                        </div>
+                    </aside>
+
+                    <section class="b-grid__col b-grid__col_3">
+                        <?php include('html-parts/basket-empty.html'); ?>
+                        <?php include('html-parts/widget.html'); ?>
+                        <?php include('html-parts/widget-payment.html'); ?>
+                    </section>
+
+                </section>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    {{>footer}}
+
+</div>
+
+
+<script src="publish/script.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,272 @@
+{{>head}}
+
+<body class="b-body">
+
+
+<div class="b-page">
+<div class="b-page__wrap">
+
+{{>header}}
+
+<div class="b-wrapper">
+<div class="b-content">
+<section class="b-grid">
+
+<section class="b-grid__col b-grid__col_1">
+    {{>nav}}
+</section>
+
+<aside class="b-grid__col b-grid__col_2">
+
+
+<section  class="b-round-box b-c-zone">
+<div class="b-breadcrumb"></div>
+<h1 class="b-h-title">Оформление заказа</h1>
+
+<div class="b-title">Ваш заказ</div>
+
+{{>order}}
+
+<section>
+    <section>
+        <hr class="b-separator_line">
+        <div class="b-title">
+            Ваши данные
+        </div>
+        <section class="b-control-set">
+            <div class="b-control b-control-set__el b-control-set__el_4 b-control_st_error">
+                <label class="b-control__lab">* Фамилия
+                </label>
+
+                <div class="b-control__i-b">
+                    <input value="Усачёв-Котовский" class="b-input b-input_st_error" type="text">
+                    <div class="b-control__error">Необходимо заполнить</div>
+                </div>
+            </div>
+            <section class="b-control-set__fl-row">
+                <div class="b-control b-control-set__el b-control-set__el_4 b-control_st_error">
+                    <label class="b-control__lab">Имя</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input b-input_st_error" type="text">
+                        <div class="b-control__error">Необходимо заполнить</div>
+                    </div>
+                </div>
+                <div class="b-control b-control-set__el b-control-set__el_4 b-control_st_error">
+                    <label class="b-control__lab">Телефон</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input b-input_st_error" type="text">
+                        <div class="b-control__error">Необходимо заполнить</div>
+                    </div>
+                </div>
+                <div class="b-control b-control-set__el b-control-set__el_4 b-control_st_error">
+                    <label class="b-control__lab">Эл. почта</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input b-input_st_error" type="text">
+                        <div class="b-control__error">Необходимо заполнить</div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <hr class="b-separator_line">
+
+        <div class="b-title">
+            Адрес доставки
+        </div>
+        <section class="b-control-set">
+            <div class="b-control b-control-set__el b-control-set__el_long b-control_st_error">
+                <label class="b-control__lab">Улица</label>
+
+                <div class="b-control__i-b">
+                    <input value="Ленина, д.65, кв.17" class="b-input b-input_st_error" type="text">
+                    <div class="b-control__error ">Необходимо заполнить</div>
+                </div>
+            </div>
+            <section class="b-control-set__fl-row">
+                <div class="b-control b-control-set__el b-control_st_error">
+                    <label class="b-control__lab">Дом</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input b-input_st_error" type="text">
+                        <div class="b-control__error ">Необходимо заполнить</div>
+                    </div>
+                </div>
+                <div class="b-control b-control-set__el">
+                    <label class="b-control__lab">Корпус</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input" type="text">
+                    </div>
+                </div>
+                <div class="b-control b-control-set__el">
+                    <label class="b-control__lab">Квартира</label>
+
+                    <div class="b-control__i-b">
+                        <input class="b-input" type="text">
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <hr class="b-separator_line">
+        <div class="b-title">Дата и время доставки</div>
+        <section class="b-control-set">
+            <div class="b-control b-control-set__el b-control-set__el_long b-control_st_error">
+                <label class="b-control__lab">Дата</label>
+
+                <div class="b-control__i-b">
+                    <input data-value="2004-03-20" min="2004-02-20" value="12 октября 2013 г."
+                           class="b-input  b-input_st_error">
+                    <span class="b-calendar"></span>
+                    <div class="b-control__error ">Необходимо заполнить</div>
+                </div>
+            </div>
+            <section class="b-control-set__fl-row">
+                <div class="b-control ">
+                    <label class="b-control__lab">Время доставки</label>
+
+                    <div class="b-control__i-b">
+                        <label class="b-label">c</label>
+                                                <span class="b-dec-select b-dec-select_time-1">
+                                                    <select class="b-dec-select__c">
+                                                        <option>09:00</option>
+                                                        <option>10:00</option>
+                                                        <option>11:00</option>
+                                                        <option>12:00</option>
+                                                        <option>13:00</option>
+                                                    </select>
+                                                </span>
+                        <label class="b-label">до</label>
+                                                <span class="b-dec-select">
+                                                    <select class="b-dec-select__c">
+                                                        <option>09:00</option>
+                                                        <option>10:00</option>
+                                                        <option>11:00</option>
+                                                        <option>12:00</option>
+                                                        <option>13:00</option>
+                                                    </select>
+                                                </span>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <hr class="b-separator_line">
+    <div class="b-title">Способ оплаты</div>
+    <section class="b-control-set b-control-set_type_rad">
+        <div class="b-control-set__el">
+            <label>
+                <input type="radio">
+                Mastercard
+            </label>
+        </div>
+        <div class="b-control-set__el">
+            <label>
+                <input type="radio">
+                Visa
+            </label>
+        </div>
+        <div class="b-control-set__el">
+        <label>
+            <input type="radio">
+            Яндекс.Деньги
+        </label>
+            </div>
+        <div class="b-control-set__el">
+        <label>
+            <input type="radio">
+            Webmoney
+        </label>
+        </div>
+    </section>
+    <div class="b-control-chk">
+        <label>
+            <input type="checkbox">
+            Я согласен с <a href="">Договором оферты</a>
+        </label>
+    </div>
+</section>
+
+<div class="b-order-btn-box">
+    <div class="b-order-btn-box__btn">
+        <a class="b-button b-button_sc_order" href="">Оформить заказ</a>
+    </div>
+</div>
+<section class="b-f-zone">
+    <section class="b-mess" style="">
+        <h5 class="b-mess__title">Доставка товара возможна после оплаты на сайте</h5>
+
+        <div class="b-mess__box">
+            <figure class="b-mess__icon"></figure>
+            Мы заботимся о вас. Чтобы гарантировать доставку, мы вынуждены брать предоплату.
+            Благодарим за понимание. Полнее читайте <a href="">правила доставки</a>.
+        </div>
+    </section>
+    <div class="b-product-card b-product-card_sc_mess">
+        <div class="b-product-card__feature">
+
+            <div class="b-product-card__feat-g">
+                <div class="b-feature b-feature_type_24">
+                    <div class="b-feature__img"></div>
+                    <div class="b-feature__txt">Круглосуточная <br> доставка</div>
+                </div>
+            </div>
+            <div class="b-product-card__feat-g">
+                <div class="b-feature b-feature_type_no-back">
+                    <div class="b-feature__img"></div>
+                    <div class="b-feature__txt">Не подлежит <br> возврату</div>
+                </div>
+            </div>
+            <div class="b-product-card__feat-g">
+                <div class="b-feature b-feature_type_sms">
+                    <div class="b-feature__img"></div>
+                    <div class="b-feature__txt">SMS-оповещение о статусе заказа</div>
+                </div>
+            </div>
+            <div class="b-product-card__feat-g">
+                <div class="b-feature b-feature_type_lock">
+                    <div class="b-feature__img"></div>
+                    <div class="b-feature__txt">Герметичная <br> упаковка</div>
+                </div>
+            </div>
+            <div class="b-product-card__feat-g">
+                <div class="b-feature b-feature_type_100">
+                    <div class="b-feature__img"></div>
+                    <div class="b-feature__txt">100% оплата по <br> безналичному расчету</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+</section>
+
+</aside>
+
+
+
+<section class="b-grid__col b-grid__col_3">
+    <?php include('html-parts/widget.html'); ?>
+
+</section>
+
+</section>
+
+</div>
+</div>
+
+
+</div>
+
+{{>footer}}
+
+</div>
+
+
+<script src="publish/script.js"></script>
+
+</body>
+</html>
+

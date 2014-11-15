@@ -1,0 +1,90 @@
+/*---| .b-filters |----------------------start----------------------------------------*/
+
+.b-filters {
+  padding: 30px 20px;
+  .border-radius(4px);
+  border: 1px solid #e8e8e8;
+  background: #f7f8f9;
+  .clearFix();
+  margin-bottom: 10px;
+}
+
+.b-filters_box {
+
+  margin-bottom: 20px;
+  .clearFix();
+}
+
+.b-filters__lab {
+  font-family: @Pt;
+  font-size: 15px;
+  // background: #0066ee;
+  width: 160px;
+  float: left;
+  line-height: 1;
+}
+
+.b-filters__slider {
+}
+
+.b-filters__range {
+  position: absolute;
+  top: -16px;
+  line-height: 1;
+  font-size: 11px;
+  color: #3fb108;
+  white-space: nowrap
+}
+
+.b-filters__s-val {
+  color: #a6a6a6;
+  font-size: 13px;
+  line-height: 15px;
+  float: left;
+}
+
+.b-filters__sl-wrap {
+  float: left;
+  width: 270px;
+  padding: 0 20px;
+  padding-top: 7px;
+}
+
+
+.b-filters__how-a {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.b-filters__how-a_active,
+.b-filters__how-a_active:visited {
+  color: #40B208;
+}
+
+/*===| .b-filters |======================end==========================================*/
+
+
+@media screen and (max-width: @mm) {
+
+  .b-filters__s-val {
+    float: none;
+    clear: both;
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+
+  .b-filters__sl-wrap {
+    float: none;
+    clear: both;
+    margin-bottom: 20px;
+    width: auto;
+    padding: 0;
+  }
+
+  .b-filters__lab {
+    margin-bottom: 20px;
+  }
+}
