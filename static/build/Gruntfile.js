@@ -81,6 +81,7 @@ module.exports = function (grunt) {
                 blockPath : 'html/block',
                 stylePath : 'html/publish',
                 jsPath : 'html/js',
+                srcJs: 'static/publish/script.js',
                 partials: ['../parts/**/*.hbs' , '../blocks/**/*.hbs' ],
                // data: ['../data/*.{json,yml}'],
                 flatten: true

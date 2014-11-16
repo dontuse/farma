@@ -1,15 +1,25 @@
 [
-    "../js/lib/jquery-1.8.2.min.js",
-    "../js/lib/tiny-pubsub.js",
-    "../js/lib/jquery.placeholder.js",
 
-    "../js/lib/jcarousel/core.js",
-    "../js/lib/jcarousel/core_plugin.js",
-    "../js/lib/jcarousel/scrollintoview.js",
-    "../js/lib/jcarousel/control.js",
-    "../js/lib/jcarousel/pagination.js",
-    "../js/lib/jcarousel/autoscroll.js",
+    "../js/lib/ui/jquery.ui.core.js",
+    "../js/lib/ui/jquery.ui.widget.js",
+    "../js/lib/ui/jquery.ui.position.js",
+    "../js/lib/ui/jquery.ui.menu.js",
+    "../js/lib/ui/jquery.ui.autocomplete.js",
+    "../js/lib/ui/jquery.ui.datepicker-ru.js",
+    "../js/lib/ui/jquery.ui.datepicker.js",
 
 
-    "../js/js-carousel.js"
+    "../blocks/noUiSlider/jquery.nouislider.js",
+
+    "../blocks/js-filter-catalog/js-filter-catalog.js",
+    "../blocks/b-accords/b-accords.js",
+    "../blocks/modals/modal.js",
+    "../blocks/js-prod-addon/js-prod-addon.js",
+    "../js/cart.js",
+    "../js/lib/jquery.cookie.js",
+    "../js/jsrender.js",
+    "../blocks/js-suggest/js-suggest.js",
+    "../blocks/js-data-picker/js-data-picker.js",
+    "../blocks/js-cat-nav/js-cat-nav.js",
+    "../js/all.js"
 ]
