@@ -52,7 +52,7 @@ results
 
 node_modules
 npm-debug.log
-bower
+#bower
 
 # Vagrant files
 .vagrant
