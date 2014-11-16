@@ -95,7 +95,7 @@
 
                         <div class="b-text">
 
-                            <div>
+ <!--                           <div>
                                 <h1>pages</h1>
                                 <ul>
                                     <li><a target="_blank" href="card.html">карточка</a></li>
@@ -130,6 +130,14 @@
                                         <a target="_blank" href="404.html">404</a>
                                     </li>
                                 </ul>
+                            </div>-->
+
+                            <div>
+                                <ul >
+                                    {{#each  pages }}
+                                        <li > <a  href ="{{pageName}}" > {{basename }} </a > {{debug}} </li >
+                                    {{/each  }}
+                                </ul >
                             </div>
 
                         </div>

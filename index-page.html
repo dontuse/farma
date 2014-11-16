@@ -25,7 +25,38 @@
 <div class="b-page">
     <div class="b-page__wrap">
 
-        <?php include('html-parts/header-2.html'); ?>
+        <!-- header-->
+<header class="b-header b-header_t_2">
+    <div class="b-wrapper b-wrapper_header">
+        <section class="b-grid">
+            <section class="b-grid__col b-grid__col_1">
+                <a class="b-logo" href="/">LoveLess Foundation</a>
+            </section>
+            <section class="b-grid__col b-grid__col_2">
+<!--                <div class="b-city-select" style="height: 29px; line-height: 29px">
+                    <span> Ваш город:</span> <a class="b-city-select__call" href="">Екатеринбург</a>
+                </div>-->
+                <div class="b-slog">
+                    доставка медикаментов на дом
+                </div>
+                <div class="b-phones">
+                    <div class="b-phones__h">круглосуточная справочная</div>
+                    <div class="b-phones__p">(343) 385-11-11</div>
+                </div>
+            </section>
+
+            <section class="b-grid__col b-grid__col_3">
+              <!--<div class="b-user-login">
+                  <a class="b-user-login__lnk" href="">Выход</a>
+                  <div class="b-user-login__name">
+                      Пётр Иванов
+                  </div>
+              </div>-->
+            </section>
+        </section>
+    </div>
+</header>
+<!-- header end-->
 
         <div class="b-wrapper">
             <div class="b-content">
@@ -94,12 +125,13 @@
                                 <h1 class="b-index-info__h">Делайте покупки на ФастФарме легко и с удовольствием</h1>
 
                                 <div class="b-box b-box_6">
-                                    <img style="max-width: 98%;" src="blocks/i-img/index-img1.png">
+                                    <img style="max-width: 98%;" src="static/blocks/i-img/index-img1.png">
                                 </div>
 
                                 <div style="" class="b-index-info__col b-index-info__col_1">
                                     <div>
                                         <h3 class="b-index-info__col-h">Выберите товар</h3>
+
                                         <div class="b-index-info__col-cnt">
                                             Воспользутесь поиском, найдите нужный товар.
                                         </div>
@@ -108,15 +140,18 @@
                                 <div class="b-index-info__col b-index-info__col_2">
                                     <div>
                                         <h3 class="b-index-info__col-h">Оплатите товар по интернету</h3>
+
                                         <div class="b-index-info__col-cnt">
-                                            Оплатите покупку прямо на сайте любым из 30-ти доступных видов онлайн платежа. Онлайн оплата
+                                            Оплатите покупку прямо на сайте любым из 30-ти доступных видов онлайн
+                                            платежа. Онлайн оплата
                                             <i class="b-index-info__imp">гарантирует своевременную доставку заказа.</i>
                                         </div>
                                     </div>
                                 </div>
-                                <div  class="b-index-info__col b-index-info__col_3">
+                                <div class="b-index-info__col b-index-info__col_3">
                                     <div>
                                         <h3 class="b-index-info__col-h">Получите товар за 2 часа</h3>
+
                                         <div class="b-index-info__col-cnt">
                                             Через два часа курьер
                                             <i class="b-index-info__imp">гарантировано доставит вам товар</i>.
@@ -129,18 +164,67 @@
                         </section>
 
                         <div class="b-text">
-                            <p>Онлайн аптека Fastfarma предлагает низкие цены на лекарства и товары для здоровья. Здесь вы сможете найти и купить лекарства не выходя из дома. В нашем каталоге собраны самые популярные и эффективные лекарства и товары для здоровья. Вам не придется тратить время на поиск лекарств в других аптеках Екатеринбурга. Теперь вы можете купить лекарства в одном месте.</p>
+                            <p>Онлайн аптека Fastfarma предлагает низкие цены на лекарства и товары для здоровья. Здесь
+                                вы сможете найти и купить лекарства не выходя из дома. В нашем каталоге собраны самые
+                                популярные и эффективные лекарства и товары для здоровья. Вам не придется тратить время
+                                на поиск лекарств в других аптеках Екатеринбурга. Теперь вы можете купить лекарства в
+                                одном месте.</p>
+
                             <p>
 
-                                Онлайн аптека Fastfarma – поиск, резервирование, бронирование лекарств. Доставка лекарств на дом, в офис по Екатеринбургу и городам-спутникам. Закажите лекарства, медтехнику и другие товары для здоровья на нашем сайте, и мы осуществим доставку в любую точку Екатеринбурга, В.Пышмы и Березовского. Кроме того, вы можете забронировать препараты и другие товары в любой из наших аптек и забрать заказ в удобное время.
+                                Онлайн аптека Fastfarma – поиск, резервирование, бронирование лекарств. Доставка
+                                лекарств на дом, в офис по Екатеринбургу и городам-спутникам. Закажите лекарства,
+                                медтехнику и другие товары для здоровья на нашем сайте, и мы осуществим доставку в любую
+                                точку Екатеринбурга, В.Пышмы и Березовского. Кроме того, вы можете забронировать
+                                препараты и другие товары в любой из наших аптек и забрать заказ в удобное время.
                             </p>
                         </div>
                     </aside>
 
                     <section class="b-grid__col b-grid__col_3">
-                        <?php include('html-parts/basket-empty.html'); ?>
-                        <?php include('html-parts/widget.html'); ?>
-                        <?php include('html-parts/widget-payment.html'); ?>
+                        <!-- basket-->
+<div class="b-widget b-widget_empty">
+    <div class="b-widget__inner">
+        <div class="b-widget__head">
+            <span class="b-widget__em">Нет товаров</span>
+            <a class="b-widget__ps-l" href="">Корзина</a>
+        </div>
+    </div>
+</div>
+<!-- basket end-->
+                        <div style="margin-bottom: 27px" class="b-round-box">
+    <div class="b-pro-widget">
+        <figure class="b-pro-widget__pic" style="">
+            <a href="">
+                <img src="tmp/banner-img.png" alt="стать курьером">
+            </a>
+        </figure>
+        <div>
+            <ul class="b-pro-widget__ul">
+                <li>Выбирай заказ</li>
+                <li>Доставляй</li>
+                <li>Получай деньги</li>
+            </ul>
+        </div>
+        <div>
+            <a class="b-button b-button_sc_widget" href="">Стать курьером</a>
+        </div>
+    </div>
+</div>
+
+
+
+                        <div class="b-round-box">
+    <div class="b-pro-widget b-pro-widget_pay">
+        <div style="margin-bottom: 31px;" class="b-text b-text_widget">
+            <p>На сайте принимается оплата при помощи следующих платежных систем:</p>
+        </div>
+        <figure class="b-pro-widget__pic" style="">
+            <img src="tmp/banner-img2.png" alt=""/>
+        </figure>
+
+    </div>
+</div>
                     </section>
 
                 </section>
