@@ -5,60 +5,10 @@
 <div class="b-page">
     <div class="b-page__wrap">
 
-        <header class="b-header">
-            <div class="b-wrapper b-wrapper_header">
-                <div style="margin-bottom: 20px;" class="b-box">
-                    <a class="b-logo" href="/">LoveLess Foundation</a>
+        {{>header}}
 
-                    <div class="b-search">
-                        <input type="search"/>
-                    </div>
-                </div>
-                <div class="b-box">
-                    <nav class="b-table-menu">
-                        <table class="b-table-menu__table">
-                            <tr class="b-table-menu__tr">
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a b-table-menu__a_state_active" href="">загружать любые</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">Интерфейс командной строки</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </nav>
-                </div>
-            </div>
-        </header>
         <div class="b-wrapper">
             <div class="b-content">
-                <div class="b-box">
-                    <div class="b-breadcrumb">
-                        <span class="b-breadcrumb__item">
-                            <a href="#" class="breadcrumb__link">Home</a>
-                            <span class="b-breadcrumb__divider">/</span>
-                        </span>
-                        <span class="b-breadcrumb__item">
-                            <a href="#" class="breadcrumb__link">Library</a>
-                            <span class="b-breadcrumb__divider">/</span >
-                        </span>
-                        <span class="b-breadcrumb__item b-breadcrumb__item_active_yes">
-                            Data
-                        </span>
-                    </div>
-                </div>
                 <section class="b-grid">
                     <section class="b-grid__col b-grid__col_1">
                         <nav class="b-nav">
@@ -95,47 +45,10 @@
 
                         <div class="b-text">
 
- <!--                           <div>
-                                <h1>pages</h1>
-                                <ul>
-                                    <li><a target="_blank" href="card.html">карточка</a></li>
-                                    <li><a target="_blank" href="catalog.html">каталог</a></li>
-                                    <li><a target="_blank" href="catalog-3.html">каталог 3</a></li>
-                                    <li><a target="_blank" href="catalog-4.html">каталог 4</a></li>
-                                    <li><a target="_blank" href="your-data.html">ваши данные</a></li>
-                                    <li><a target="_blank" href="order.html">order</a></li>
-                                    <li><a target="_blank" href="checkout.html">оформление заказа</a></li>
-                                    <li>
-                                        <a target="_blank" href="order-not-reg.html">оформление заказа и регистрация</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="text-page.html">текстовая страница</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="helpful-information.html">полезная информация</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="catalog-4-slider.html">каталог - слайдер</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="index-page.html">главная</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="card-no-comments.html">Карточка нет комментариев</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="order-not-reg-error.html">Оформить с ошибками</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="404.html">404</a>
-                                    </li>
-                                </ul>
-                            </div>-->
-
                             <div>
                                 <ul >
                                     {{#each  pages }}
-                                        <li > <a  href ="{{pageName}}" > {{basename }} </a > {{debug}} </li >
+                                        <li >{{data.name}} <a  href ="{{pageName}}" > {{basename }} </a > </li >
                                     {{/each  }}
                                 </ul >
                             </div>

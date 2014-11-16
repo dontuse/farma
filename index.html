@@ -24,60 +24,39 @@
 <div class="b-page">
     <div class="b-page__wrap">
 
-        <header class="b-header">
-            <div class="b-wrapper b-wrapper_header">
-                <div style="margin-bottom: 20px;" class="b-box">
-                    <a class="b-logo" href="/">LoveLess Foundation</a>
+        <!-- header-->
+<header class="b-header">
+    <div class="b-wrapper b-wrapper_header">
+        <section class="b-grid">
+            <section class="b-grid__col b-grid__col_1">
+                <a class="b-logo" href="/">LoveLess Foundation</a>
+            </section>
+            <section class="b-grid__col b-grid__col_2">
+<!--                <div class="b-city-select" style="height: 29px; line-height: 29px">
+                    <span> Ваш город:</span> <a class="b-city-select__call" href="">Екатеринбург</a>
+                </div>-->
+                <div class="b-search">
+                    <form class="b-search__ins" action="">
+                        <input data-source="/shop/www/static/html/ajax/autoprod.json" class="b-search__inp js-suggest" placeholder="Введите название лекарства">
+                        <input  value="Найти" type="submit" class="b-button b-search__submit">
+                    </form>
+                </div>
+            </section>
+            <section class="b-grid__col b-grid__col_3">
+              <!--<div class="b-user-login">
+                  <a class="b-user-login__lnk" href="">Выход</a>
+                  <div class="b-user-login__name">
+                      Пётр Иванов
+                  </div>
+              </div>-->
+            </section>
+        </section>
+    </div>
+</header>
+<!-- header end-->
 
-                    <div class="b-search">
-                        <input type="search"/>
-                    </div>
-                </div>
-                <div class="b-box">
-                    <nav class="b-table-menu">
-                        <table class="b-table-menu__table">
-                            <tr class="b-table-menu__tr">
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a b-table-menu__a_state_active" href="">загружать любые</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">Интерфейс командной строки</a>
-                                </td>
-                                <td class="b-table-menu__td">
-                                    <a class="b-table-menu__a" href="">menu item 1</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </nav>
-                </div>
-            </div>
-        </header>
         <div class="b-wrapper">
             <div class="b-content">
-                <div class="b-box">
-                    <div class="b-breadcrumb">
-                        <span class="b-breadcrumb__item">
-                            <a href="#" class="breadcrumb__link">Home</a>
-                            <span class="b-breadcrumb__divider">/</span>
-                        </span>
-                        <span class="b-breadcrumb__item">
-                            <a href="#" class="breadcrumb__link">Library</a>
-                            <span class="b-breadcrumb__divider">/</span >
-                        </span>
-                        <span class="b-breadcrumb__item b-breadcrumb__item_active_yes">
-                            Data
-                        </span>
-                    </div>
-                </div>
                 <section class="b-grid">
                     <section class="b-grid__col b-grid__col_1">
                         <nav class="b-nav">
@@ -114,87 +93,50 @@
 
                         <div class="b-text">
 
- <!--                           <div>
-                                <h1>pages</h1>
-                                <ul>
-                                    <li><a target="_blank" href="card.html">карточка</a></li>
-                                    <li><a target="_blank" href="catalog.html">каталог</a></li>
-                                    <li><a target="_blank" href="catalog-3.html">каталог 3</a></li>
-                                    <li><a target="_blank" href="catalog-4.html">каталог 4</a></li>
-                                    <li><a target="_blank" href="your-data.html">ваши данные</a></li>
-                                    <li><a target="_blank" href="order.html">order</a></li>
-                                    <li><a target="_blank" href="checkout.html">оформление заказа</a></li>
-                                    <li>
-                                        <a target="_blank" href="order-not-reg.html">оформление заказа и регистрация</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="text-page.html">текстовая страница</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="helpful-information.html">полезная информация</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="catalog-4-slider.html">каталог - слайдер</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="index-page.html">главная</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="card-no-comments.html">Карточка нет комментариев</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="order-not-reg-error.html">Оформить с ошибками</a>
-                                    </li>
-                                    <li>
-                                        <a target="_blank" href="404.html">404</a>
-                                    </li>
-                                </ul>
-                            </div>-->
-
                             <div>
                                 <ul >
                                     
-                                        <li > <a  href ="components.html" > components </a >  </li >
+                                        <li > <a  href ="components.html" > components </a > </li >
                                     
-                                        <li > <a  href ="404.html" > 404 </a >  </li >
+                                        <li > <a  href ="404.html" > 404 </a > </li >
                                     
-                                        <li > <a  href ="blocks.html" > blocks </a >  </li >
+                                        <li > <a  href ="blocks.html" > blocks </a > </li >
                                     
-                                        <li > <a  href ="card-no-comments.html" > card-no-comments </a >  </li >
+                                        <li > <a  href ="card-no-comments.html" > card-no-comments </a > </li >
                                     
-                                        <li > <a  href ="card.html" > card </a >  </li >
+                                        <li > <a  href ="card.html" > card </a > </li >
                                     
-                                        <li > <a  href ="catalog-3.html" > catalog-3 </a >  </li >
+                                        <li > <a  href ="catalog-3.html" > catalog-3 </a > </li >
                                     
-                                        <li > <a  href ="catalog-4-slider.html" > catalog-4-slider </a >  </li >
+                                        <li > <a  href ="catalog-4-slider.html" > catalog-4-slider </a > </li >
                                     
-                                        <li > <a  href ="catalog-4.html" > catalog-4 </a >  </li >
+                                        <li > <a  href ="catalog-4.html" > catalog-4 </a > </li >
                                     
-                                        <li > <a  href ="catalog.html" > catalog </a >  </li >
+                                        <li > <a  href ="catalog.html" > catalog </a > </li >
                                     
-                                        <li > <a  href ="checkout.html" > checkout </a >  </li >
+                                        <li > <a  href ="checkout.html" > checkout </a > </li >
                                     
-                                        <li > <a  href ="_index.html" > _index </a >  </li >
+                                        <li > <a  href ="_index.html" > _index </a > </li >
                                     
-                                        <li > <a  href ="helpful-information.html" > helpful-information </a >  </li >
+                                        <li > <a  href ="helpful-information.html" > helpful-information </a > </li >
                                     
-                                        <li > <a  href ="index-page.html" > index-page </a >  </li >
+                                        <li >Главная <a  href ="index-page.html" > index-page </a > </li >
                                     
-                                        <li > <a  href ="index.html" > index </a >  </li >
+                                        <li > <a  href ="index.html" > index </a > </li >
                                     
-                                        <li > <a  href ="index_copy.html" > index_copy </a >  </li >
+                                        <li > <a  href ="index_copy.html" > index_copy </a > </li >
                                     
-                                        <li > <a  href ="inner-page.html" > inner-page </a >  </li >
+                                        <li > <a  href ="inner-page.html" > inner-page </a > </li >
                                     
-                                        <li > <a  href ="order-not-reg-error.html" > order-not-reg-error </a >  </li >
+                                        <li > <a  href ="order-not-reg-error.html" > order-not-reg-error </a > </li >
                                     
-                                        <li > <a  href ="order-not-reg.html" > order-not-reg </a >  </li >
+                                        <li > <a  href ="order-not-reg.html" > order-not-reg </a > </li >
                                     
-                                        <li > <a  href ="order.html" > order </a >  </li >
+                                        <li > <a  href ="order.html" > order </a > </li >
                                     
-                                        <li > <a  href ="text-page.html" > text-page </a >  </li >
+                                        <li > <a  href ="text-page.html" > text-page </a > </li >
                                     
-                                        <li > <a  href ="your-data.html" > your-data </a >  </li >
+                                        <li > <a  href ="your-data.html" > your-data </a > </li >
                                     
                                 </ul >
                             </div>
