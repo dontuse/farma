@@ -831,7 +831,106 @@
 
 </div>
 
-<? include('html-parts/modals.html'); ?>
+<!-- modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="js-ask-quest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title ">Задать вопрос</h4>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <form id="yw0" method="post" action="">
+                        <div class="b-control b-control_st_error">
+                            <label class="b-control__lab">ФИО</label>
+
+                            <div class="b-control__i-b">
+                                <input class="b-input b-input_st_error" type="text">
+                            </div>
+                        </div>
+
+                        <div class="b-control">
+                            <label class="b-control__lab">Email</label>
+
+                            <div class="b-control__i-b">
+                                <input class="b-input" type="text">
+                            </div>
+                        </div>
+
+                        <div class="b-control">
+                            <label class="b-control__lab">Вопрос</label>
+
+                            <div class="b-control__i-b">
+                                <textarea class="b-textarea" type="text"></textarea>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img id="yw3" src="http://fastfarma.com/comments/comment/captcha/v/52847d5ddbb1f/" alt=""><a id="yw3_button" href="http://fastfarma.com/comments/comment/captcha/refresh/1/">Получить новый код</a>                <input name="Comment[verifyCode]" id="Comment_verifyCode" type="text">
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="b-button  b-button_state_cancel modal-footer__btn" data-dismiss="modal">Отмена</button>
+                <button  type="button" class="b-button modal-footer__btn">Отправить</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="js-call-modal-add-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close modal-close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Добавить отзыв</h4>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <form>
+                        <div class="b-control b-control_st_error">
+                            <label class="b-control__lab">ФИО</label>
+
+                            <div class="b-control__i-b">
+                                <input class="b-input b-input_st_error" type="text">
+                                <div class="b-control__error">Поле обязательно для заполнения</div>
+                            </div>
+                        </div>
+
+                        <div class="b-control">
+                            <label class="b-control__lab">Email</label>
+
+                            <div class="b-control__i-b">
+                                <input class="b-input" type="text">
+                            </div>
+                        </div>
+
+                        <div class="b-control">
+                            <label class="b-control__lab">Отзыв</label>
+
+                            <div class="b-control__i-b">
+                                <textarea class="b-textarea" type="text"></textarea>
+                            </div>
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="b-button  b-button_state_cancel modal-footer__btn" data-dismiss="modal">Отмена</button>
+                <button type="button" class="b-button modal-footer__btn">Отправить</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
 <script src="publish/script.js"></script>
 
