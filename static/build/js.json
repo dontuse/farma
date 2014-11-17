@@ -8,6 +8,7 @@
     "../js/lib/ui/jquery.ui.datepicker-ru.js",
     "../js/lib/ui/jquery.ui.datepicker.js",
 
+    "../js/bower/bootstrap/js/tab.js",
 
     "../blocks/noUiSlider/jquery.nouislider.js",
 
