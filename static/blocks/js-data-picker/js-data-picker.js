@@ -1,5 +1,5 @@
 $(function(){
-    $block = $('.js-data-picker');
+    var $block = $('.js-data-picker');
 
     if(!$block.length){return}
 

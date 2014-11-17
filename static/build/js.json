@@ -9,6 +9,7 @@
     "../js/lib/ui/jquery.ui.datepicker.js",
 
     "../js/bower/bootstrap/js/tab.js",
+    "../js/bower/parsleyjs/dist/parsley.js",
 
     "../blocks/noUiSlider/jquery.nouislider.js",
 
@@ -22,5 +23,6 @@
     "../blocks/js-suggest/js-suggest.js",
     "../blocks/js-data-picker/js-data-picker.js",
     "../blocks/js-cat-nav/js-cat-nav.js",
+    "../blocks/js-add-prod-comment.js",
     "../js/all.js"
 ]

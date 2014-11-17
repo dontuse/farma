@@ -53,7 +53,7 @@
 <!-- modal -->
 
 <!-- Modal -->
-<div class="modal fade" id="js-call-modal-add-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade js-add-prod-comment" id="js-call-modal-add-comment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -62,13 +62,12 @@
             </div>
             <div class="modal-body">
                 <section>
-                    <form>
-                        <div class="b-control b-control_st_error">
+                    <form class="js-add-prod-comment__form">
+                        <div class="b-control">
                             <label class="b-control__lab">ФИО</label>
 
                             <div class="b-control__i-b">
-                                <input class="b-input b-input_st_error" type="text">
-                                <div class="b-control__error">Поле обязательно для заполнения</div>
+                                <input class="b-input" type="text" required>
                             </div>
                         </div>
 
@@ -76,7 +75,7 @@
                             <label class="b-control__lab">Email</label>
 
                             <div class="b-control__i-b">
-                                <input class="b-input" type="text">
+                                <input class="b-input" type="email" required>
                             </div>
                         </div>
 
@@ -84,7 +83,7 @@
                             <label class="b-control__lab">Отзыв</label>
 
                             <div class="b-control__i-b">
-                                <textarea class="b-textarea" type="text"></textarea>
+                                <textarea class="b-textarea" type="text" required></textarea>
                             </div>
                         </div>
 
@@ -93,7 +92,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="b-button  b-button_state_cancel modal-footer__btn" data-dismiss="modal">Отмена</button>
-                <button type="button" class="b-button modal-footer__btn">Отправить</button>
+                <button type="button" class="b-button modal-footer__btn js-add-prod-comment__submit">Отправить</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

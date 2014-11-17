@@ -1,7 +1,7 @@
 $(function(){
     var $block = $('.js-cat-nav');
 
-    if(!$block.length){return}
+    if(!$block.length){return;}
 
     $('.b-nav__header').click(function(e){
         e.preventDefault();
